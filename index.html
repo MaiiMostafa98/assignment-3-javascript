@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/media-query.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/index_stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+      <div class=" container  my-5 ">
+
+        <header>
+          <div class=" bookmarker-parent  d-flex justify-content-center ">
+            <div class=" bookmarker d-inline-block  ">
+              <h1> Bookmarker </h1>
+            </div>
+          </div>
+        </header>
+
+        <section class="section-1">
+          <h3 class=" mt-4 mb-5  text-center"> <i class="fa-regular fa-bookmark"></i>  Bookmark your favorite sites  <i class="fa-regular fa-bookmark"></i> </h3>
+
+
+          <label class="mb-3" > <i class="fa-solid fa-book-bookmark "></i> Site Name </label>
+          <input id="sName" class="form-control mb-4" placeholder="Site Name">
+  
+          <label class="mb-3" > <i class="fa-solid fa-link"></i>  Site URL </label>
+          <input id="sURL" class="form-control mb-4"  placeholder=" Site URL">
+  
+          <div class="d-flex justify-content-center">
+            <button onclick="addSite()" class=" button btn px-5 "> submit</button>
+          </div>
+
+        </section>
+
+        <!-- <input class="form-control w-25  mt-4" placeholder= "Search"> -->
+
+        <table class="table text-center my-4 ">
+          <thead>
+            <th>Index</th>
+            <th>Website Name</th>
+            <th>Vist</th>
+            <th>Delete</th>
+            
+            
+          </thead>
+
+          <tbody id="tbody">
+           
+            <td><button id="Update" class="btn btn-outline-primary">Update</button></td>
+
+          </tbody>
+        </table>
+
+      </div>
+
+
+
+     <script src="./js/main.js"></script> 
+    </body>
+</html>
